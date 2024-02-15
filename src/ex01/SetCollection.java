@@ -18,6 +18,7 @@ public class SetCollection {
 		while(it.hasNext())
 			System.out.print(it.next() + " ");
 		System.out.println();
+		
 		// 재 출력하려면 한번 더 사용해야 한다.
 		it = set.iterator(); // 반복자
 		while(it.hasNext())
